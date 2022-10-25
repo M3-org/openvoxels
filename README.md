@@ -5,7 +5,7 @@ Collaborative projects and metaverse interoperability experiments with Cryptovox
 
 
 Links:
-
-https://hackmd.io/@XR/voxels - Notes / documentation
-https://juicebox.money/@openvoxels - Support this initiative
+- https://twitter.com/openvoxels - Twitter
+- https://hackmd.io/@XR/voxels - Notes / documentation
+- https://juicebox.money/@openvoxels - Join / Support
 
