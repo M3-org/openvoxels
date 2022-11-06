@@ -15,7 +15,9 @@ Collaborative projects and metaverse interoperability lab experimenting with Cry
   <a href="https://discord.gg/m3org">Discord</a>
 </div>
 
-**Motivation**
+---
+
+## Motivation
 
 - Virtual worlds are ephemeral
 - Preserving virtual worlds has unique challenges
