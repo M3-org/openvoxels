@@ -40,4 +40,5 @@ Part of the openvoxels mission seeks to preserve, curate, augment, and promote h
 
 | [Parcels](https://github.com/madjin/Cryptovoxels-snapshots) | [Wearables](https://github.com/M3-org/cryptovoxels-wearables) |
 | --- | --------- |
-| ![blender_Om6PfHUI0k](https://user-images.githubusercontent.com/32600939/200194527-c628dfd4-fb61-44da-acfb-1db1dab03014.png) | ![](https://i.imgur.com/9n9cLpt.png) |
+| [![blender_Om6PfHUI0k](https://user-images.githubusercontent.com/32600939/200194527-c628dfd4-fb61-44da-acfb-1db1dab03014.png)](https://github.com/madjin/Cryptovoxels-snapshots) | [![](https://i.imgur.com/9n9cLpt.png)](https://github.com/M3-org/cryptovoxels-wearables) |
+
