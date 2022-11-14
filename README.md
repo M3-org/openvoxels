@@ -25,7 +25,7 @@ Collaborative projects and metaverse interoperability lab experimenting with Cry
 
 I want our digital wonders to last, and the early founders and pioneers of this space remembered. Without history, society is easily reprogrammed by its incumbents. If we don’t tell our story, someone else will. We shouldn't rely on centralized platforms to preserve our digital artifacts and stand the test of time. Twitter is powerful, but it's also a rapid stream. It's useful for data in transit, but not for data at rest.
 
-> Read full post: https://mirror.xyz/openvoxels.eth/hBQzBNwFXrOnwj5S5oOiYaBpQrpM8HfjENYMjKcy6Cs
+> Read full post 📃: https://mirror.xyz/openvoxels.eth/hBQzBNwFXrOnwj5S5oOiYaBpQrpM8HfjENYMjKcy6Cs
 
 
 ---
@@ -40,4 +40,4 @@ Part of the openvoxels mission seeks to preserve, curate, augment, and promote h
 | [Parcels](https://github.com/madjin/Cryptovoxels-snapshots) | [Wearables](https://github.com/M3-org/cryptovoxels-wearables) |
 | --- | --------- |
 | [![blender_Om6PfHUI0k](https://user-images.githubusercontent.com/32600939/200194527-c628dfd4-fb61-44da-acfb-1db1dab03014.png)](https://github.com/madjin/Cryptovoxels-snapshots) | [![](https://i.imgur.com/9n9cLpt.png)](https://github.com/M3-org/cryptovoxels-wearables) |
-| [Parcels mirror blog post](https://mirror.xyz/openvoxels.eth/PDMw151D333CwJx-eGMufPawzbrFqP3Yr6ov_FY4jSk) | [Wearables mirror blog post](https://mirror.xyz/openvoxels.eth/MVy5cs90cH5ae8GNha1goMQHqFAFOKbzVSHCV_fu5jI) |
+| [📃 Parcels mirror blog post](https://mirror.xyz/openvoxels.eth/PDMw151D333CwJx-eGMufPawzbrFqP3Yr6ov_FY4jSk) | [📃 Wearables mirror blog post](https://mirror.xyz/openvoxels.eth/MVy5cs90cH5ae8GNha1goMQHqFAFOKbzVSHCV_fu5jI) |
