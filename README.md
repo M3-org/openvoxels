@@ -36,9 +36,8 @@ I want our digital wonders to last, and the early founders and pioneers of this 
 
 Part of the openvoxels mission seeks to preserve, curate, augment, and promote historical digital artifacts from the metaverse. We are planning to take another 3D snapshot of the world on the 3rd anniversary of the last one, 12-13-2022, and run a buildathon alongside such. Join the [discord](https://discord.gg/m3org) if interested.
 
-> Read full mirror post: https://mirror.xyz/openvoxels.eth/PDMw151D333CwJx-eGMufPawzbrFqP3Yr6ov_FY4jSk
 
 | [Parcels](https://github.com/madjin/Cryptovoxels-snapshots) | [Wearables](https://github.com/M3-org/cryptovoxels-wearables) |
 | --- | --------- |
 | [![blender_Om6PfHUI0k](https://user-images.githubusercontent.com/32600939/200194527-c628dfd4-fb61-44da-acfb-1db1dab03014.png)](https://github.com/madjin/Cryptovoxels-snapshots) | [![](https://i.imgur.com/9n9cLpt.png)](https://github.com/M3-org/cryptovoxels-wearables) |
-
+| [Parcels mirror blog post](https://mirror.xyz/openvoxels.eth/PDMw151D333CwJx-eGMufPawzbrFqP3Yr6ov_FY4jSk) | [Wearables mirror blog post](https://mirror.xyz/openvoxels.eth/MVy5cs90cH5ae8GNha1goMQHqFAFOKbzVSHCV_fu5jI) |
