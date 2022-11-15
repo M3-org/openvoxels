@@ -1,6 +1,6 @@
 # openvoxels
 
-Collaborative projects and metaverse interoperability lab experimenting with Cryptovoxels and voxel art.
+Collaborative projects and metaverse interoperability lab experimenting with [Voxels (formally Cryptovoxels)](https://voxels.com/) and voxel art.
 
 ![image](https://user-images.githubusercontent.com/32600939/192132690-b2223965-841b-44ca-a972-406278c40016.png)
 <div align="center">
