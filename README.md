@@ -1,6 +1,6 @@
 # openvoxels
 
-Collaborative projects and metaverse interoperability lab experimenting with [Voxels (formally Cryptovoxels)](https://voxels.com/) and voxel art.
+Metaverse interop group focused on [Voxels (formally Cryptovoxels)](https://voxels.com/) and voxel art. Come say hi in our discord if interested in topics like open source, 3D graphics, AI, VR/AR, gaming, crypto - we frequently host events across different virtual worlds.
 
 ![image](https://user-images.githubusercontent.com/32600939/192132690-b2223965-841b-44ca-a972-406278c40016.png)
 <div align="center">
