@@ -6,16 +6,24 @@ Collaborative projects and metaverse interoperability lab experimenting with [Vo
 <div align="center">
   <a href="https://twitter.com/openvoxels">Twitter</a>
   &mdash;
-  <a href="https://hackmd.io/@XR/voxels">Documentation</a>
-  &mdash;
-  <a href="https://juicebox.money/@openvoxels">Juicebox DAO</a>
+  <a href="https://hackmd.io/@XR/voxels">Notes</a>
   &mdash;
   <a href="https://app.dework.xyz/m3/openvoxels">Dework</a>
   &mdash;
   <a href="https://discord.gg/m3org">Discord</a>
   &mdash;
   <a href="https://mirror.xyz/openvoxels.eth">Blog</a>
+  &mdash;
+  <a href="https://juicebox.money/@openvoxels">Support</a>
 </div>
+
+## Resources
+
+- https://github.com/madjin/Cryptovoxels-avatars - files and guides for CV avatar interop
+- https://github.com/M3-org/cryptovoxels-wearables - snapshot of all cryptovoxel wearables in diff formats
+- https://github.com/madjin/Cryptovoxels-snapshots - snapshot of all cryptovoxel parcels from 2019 / 2022
+- https://github.com/cryptovoxels/cryptovoxels.github.com - archive of the old blog from cryptovoxels
+
 
 ---
 
@@ -32,12 +40,23 @@ I want our digital wonders to last, and the early founders and pioneers of this 
 
 ---
 
-## Datasets
+## Avatars
 
-**Historical snapshots**
+The mannequin avatars Voxels uses is a great placeholder metaphor for custom humanoid avatars, and ironically the only curvy thing in the blocky world of Origin City islands. This repo contains the original files from Voxels that were converted into VRM and FBX to experiment with avatar interop
 
-Part of the openvoxels mission seeks to preserve, curate, augment, and promote historical digital artifacts from the metaverse. We are planning to take another 3D snapshot of the world on the 3rd anniversary of the last one, 12-13-2022, and run a buildathon alongside such. Join the [discord](https://discord.gg/m3org) if interested.
+- Video demo: https://vimeo.com/455114096
+- Github: https://github.com/madjin/Cryptovoxels-avatars
+- VRoid Hub: https://hub.vroid.com/en/tags/cryptovoxels
 
+---
+
+## Historical snapshots
+
+Part of the openvoxels mission seeks to preserve, curate, augment, and promote historical digital artifacts from the metaverse. Join the [discord](https://discord.gg/m3org) if interested in a grant for building worlds with these assets.
+
+- Github: https://github.com/madjin/Cryptovoxels-snapshots
+- Sketchfab: https://skfb.ly/oyOxO
+- Archive: https://archive.org/details/cv_2019
 
 | [Parcels](https://github.com/madjin/Cryptovoxels-snapshots) | [Wearables](https://github.com/M3-org/cryptovoxels-wearables) |
 | --- | --------- |
