@@ -10,7 +10,7 @@ Metaverse interop group focused on [Voxels (formally Cryptovoxels)](https://voxe
   &mdash;
   <a href="https://app.dework.xyz/m3/openvoxels">Dework</a>
   &mdash;
-  <a href="https://discord.gg/m3org">Discord</a>
+  <a href="https://discord.gg/m3-org">Discord</a>
   &mdash;
   <a href="https://mirror.xyz/openvoxels.eth">Blog</a>
   &mdash;
