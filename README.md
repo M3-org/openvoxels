@@ -10,7 +10,7 @@ Metaverse interop group focused on [Voxels (formally Cryptovoxels)](https://voxe
   &mdash;
   <a href="https://app.dework.xyz/m3/openvoxels">Dework</a>
   &mdash;
-  <a href="https://discord.gg/m3-org">Discord</a>
+  <a href="https://m3org.com/discord">Discord</a>
   &mdash;
   <a href="https://mirror.xyz/openvoxels.eth">Blog</a>
   &mdash;
@@ -52,7 +52,7 @@ The mannequin avatars Voxels uses is a great placeholder metaphor for custom hum
 
 ## Historical snapshots
 
-Part of the openvoxels mission seeks to preserve, curate, augment, and promote historical digital artifacts from the metaverse. Join the [discord](https://discord.gg/m3org) if interested in a grant for building worlds with these assets.
+Part of the openvoxels mission seeks to preserve, curate, augment, and promote historical digital artifacts from the metaverse. Join the [discord](https://m3org.com/discord) if interested in a grant for building worlds with these assets.
 
 - Github: https://github.com/madjin/Cryptovoxels-snapshots
 - Sketchfab: https://skfb.ly/oyOxO
