@@ -1,0 +1,205 @@
+{
+  "nodes": [
+    {
+      "id": "page-1",
+      "type": "file",
+      "file": "manifest-destiny-canvas/page-1.jpg",
+      "x": 0,
+      "y": 0,
+      "width": 400,
+      "height": 566,
+      "color": "1"
+    },
+    {
+      "id": "page-2",
+      "type": "file",
+      "file": "manifest-destiny-canvas/page-2.jpg",
+      "x": 450,
+      "y": 0,
+      "width": 400,
+      "height": 566,
+      "color": "2"
+    },
+    {
+      "id": "page-3",
+      "type": "file",
+      "file": "manifest-destiny-canvas/page-3.jpg",
+      "x": 900,
+      "y": 0,
+      "width": 400,
+      "height": 566,
+      "color": "3"
+    },
+    {
+      "id": "page-4",
+      "type": "file",
+      "file": "manifest-destiny-canvas/page-4.jpg",
+      "x": 1350,
+      "y": 0,
+      "width": 400,
+      "height": 566,
+      "color": "4"
+    },
+    {
+      "id": "page-5",
+      "type": "file",
+      "file": "manifest-destiny-canvas/page-5.jpg",
+      "x": 1800,
+      "y": 0,
+      "width": 400,
+      "height": 566,
+      "color": "5"
+    },
+    {
+      "id": "page-6",
+      "type": "file",
+      "file": "manifest-destiny-canvas/page-6.jpg",
+      "x": 0,
+      "y": 616,
+      "width": 400,
+      "height": 566,
+      "color": "6"
+    },
+    {
+      "id": "page-7",
+      "type": "file",
+      "file": "manifest-destiny-canvas/page-7.jpg",
+      "x": 450,
+      "y": 616,
+      "width": 400,
+      "height": 566,
+      "color": "1"
+    },
+    {
+      "id": "page-8",
+      "type": "file",
+      "file": "manifest-destiny-canvas/page-8.jpg",
+      "x": 900,
+      "y": 616,
+      "width": 400,
+      "height": 566,
+      "color": "2"
+    },
+    {
+      "id": "page-9",
+      "type": "file",
+      "file": "manifest-destiny-canvas/page-9.jpg",
+      "x": 1350,
+      "y": 616,
+      "width": 400,
+      "height": 566,
+      "color": "3"
+    },
+    {
+      "id": "page-10",
+      "type": "file",
+      "file": "manifest-destiny-canvas/page-10.jpg",
+      "x": 1800,
+      "y": 616,
+      "width": 400,
+      "height": 566,
+      "color": "4"
+    },
+    {
+      "id": "page-11",
+      "type": "file",
+      "file": "manifest-destiny-canvas/page-11.jpg",
+      "x": 0,
+      "y": 1232,
+      "width": 400,
+      "height": 566,
+      "color": "5"
+    },
+    {
+      "id": "page-12",
+      "type": "file",
+      "file": "manifest-destiny-canvas/page-12.jpg",
+      "x": 450,
+      "y": 1232,
+      "width": 400,
+      "height": 566,
+      "color": "6"
+    },
+    {
+      "id": "page-13",
+      "type": "file",
+      "file": "manifest-destiny-canvas/page-13.jpg",
+      "x": 900,
+      "y": 1232,
+      "width": 400,
+      "height": 566,
+      "color": "1"
+    },
+    {
+      "id": "page-14",
+      "type": "file",
+      "file": "manifest-destiny-canvas/page-14.jpg",
+      "x": 1350,
+      "y": 1232,
+      "width": 400,
+      "height": 566,
+      "color": "2"
+    },
+    {
+      "id": "page-15",
+      "type": "file",
+      "file": "manifest-destiny-canvas/page-15.jpg",
+      "x": 1800,
+      "y": 1232,
+      "width": 400,
+      "height": 566,
+      "color": "3"
+    },
+    {
+      "id": "page-16",
+      "type": "file",
+      "file": "manifest-destiny-canvas/page-16.jpg",
+      "x": 0,
+      "y": 1848,
+      "width": 400,
+      "height": 566,
+      "color": "4"
+    },
+    {
+      "id": "page-17",
+      "type": "file",
+      "file": "manifest-destiny-canvas/page-17.jpg",
+      "x": 450,
+      "y": 1848,
+      "width": 400,
+      "height": 566,
+      "color": "5"
+    },
+    {
+      "id": "page-18",
+      "type": "file",
+      "file": "manifest-destiny-canvas/page-18.jpg",
+      "x": 900,
+      "y": 1848,
+      "width": 400,
+      "height": 566,
+      "color": "6"
+    },
+    {
+      "id": "page-19",
+      "type": "file",
+      "file": "manifest-destiny-canvas/page-19.jpg",
+      "x": 1350,
+      "y": 1848,
+      "width": 400,
+      "height": 566,
+      "color": "1"
+    },
+    {
+      "id": "page-20",
+      "type": "file",
+      "file": "manifest-destiny-canvas/page-20.jpg",
+      "x": 1800,
+      "y": 1848,
+      "width": 400,
+      "height": 566,
+      "color": "2"
+    }
+  ],
+  "edges": []
+}

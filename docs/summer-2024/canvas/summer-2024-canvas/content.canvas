@@ -1,0 +1,315 @@
+{
+  "nodes": [
+    {
+      "id": "page-1",
+      "type": "file",
+      "file": "summer-2024-canvas/page-1.jpg",
+      "x": 0,
+      "y": 0,
+      "width": 400,
+      "height": 566,
+      "color": "1"
+    },
+    {
+      "id": "page-2",
+      "type": "file",
+      "file": "summer-2024-canvas/page-2.jpg",
+      "x": 450,
+      "y": 0,
+      "width": 400,
+      "height": 566,
+      "color": "2"
+    },
+    {
+      "id": "page-3",
+      "type": "file",
+      "file": "summer-2024-canvas/page-3.jpg",
+      "x": 900,
+      "y": 0,
+      "width": 400,
+      "height": 566,
+      "color": "3"
+    },
+    {
+      "id": "page-4",
+      "type": "file",
+      "file": "summer-2024-canvas/page-4.jpg",
+      "x": 1350,
+      "y": 0,
+      "width": 400,
+      "height": 566,
+      "color": "4"
+    },
+    {
+      "id": "page-5",
+      "type": "file",
+      "file": "summer-2024-canvas/page-5.jpg",
+      "x": 1800,
+      "y": 0,
+      "width": 400,
+      "height": 566,
+      "color": "5"
+    },
+    {
+      "id": "page-6",
+      "type": "file",
+      "file": "summer-2024-canvas/page-6.jpg",
+      "x": 2250,
+      "y": 0,
+      "width": 400,
+      "height": 566,
+      "color": "6"
+    },
+    {
+      "id": "page-7",
+      "type": "file",
+      "file": "summer-2024-canvas/page-7.jpg",
+      "x": 2700,
+      "y": 0,
+      "width": 400,
+      "height": 566,
+      "color": "1"
+    },
+    {
+      "id": "page-8",
+      "type": "file",
+      "file": "summer-2024-canvas/page-8.jpg",
+      "x": 3150,
+      "y": 0,
+      "width": 400,
+      "height": 566,
+      "color": "2"
+    },
+    {
+      "id": "page-9",
+      "type": "file",
+      "file": "summer-2024-canvas/page-9.jpg",
+      "x": 0,
+      "y": 616,
+      "width": 400,
+      "height": 566,
+      "color": "3"
+    },
+    {
+      "id": "page-10",
+      "type": "file",
+      "file": "summer-2024-canvas/page-10.jpg",
+      "x": 450,
+      "y": 616,
+      "width": 400,
+      "height": 566,
+      "color": "4"
+    },
+    {
+      "id": "page-11",
+      "type": "file",
+      "file": "summer-2024-canvas/page-11.jpg",
+      "x": 900,
+      "y": 616,
+      "width": 400,
+      "height": 566,
+      "color": "5"
+    },
+    {
+      "id": "page-12",
+      "type": "file",
+      "file": "summer-2024-canvas/page-12.jpg",
+      "x": 1350,
+      "y": 616,
+      "width": 400,
+      "height": 566,
+      "color": "6"
+    },
+    {
+      "id": "page-13",
+      "type": "file",
+      "file": "summer-2024-canvas/page-13.jpg",
+      "x": 1800,
+      "y": 616,
+      "width": 400,
+      "height": 566,
+      "color": "1"
+    },
+    {
+      "id": "page-14",
+      "type": "file",
+      "file": "summer-2024-canvas/page-14.jpg",
+      "x": 2250,
+      "y": 616,
+      "width": 400,
+      "height": 566,
+      "color": "2"
+    },
+    {
+      "id": "page-15",
+      "type": "file",
+      "file": "summer-2024-canvas/page-15.jpg",
+      "x": 2700,
+      "y": 616,
+      "width": 400,
+      "height": 566,
+      "color": "3"
+    },
+    {
+      "id": "page-16",
+      "type": "file",
+      "file": "summer-2024-canvas/page-16.jpg",
+      "x": 3150,
+      "y": 616,
+      "width": 400,
+      "height": 566,
+      "color": "4"
+    },
+    {
+      "id": "page-17",
+      "type": "file",
+      "file": "summer-2024-canvas/page-17.jpg",
+      "x": 0,
+      "y": 1232,
+      "width": 400,
+      "height": 566,
+      "color": "5"
+    },
+    {
+      "id": "page-18",
+      "type": "file",
+      "file": "summer-2024-canvas/page-18.jpg",
+      "x": 450,
+      "y": 1232,
+      "width": 400,
+      "height": 566,
+      "color": "6"
+    },
+    {
+      "id": "page-19",
+      "type": "file",
+      "file": "summer-2024-canvas/page-19.jpg",
+      "x": 900,
+      "y": 1232,
+      "width": 400,
+      "height": 566,
+      "color": "1"
+    },
+    {
+      "id": "page-20",
+      "type": "file",
+      "file": "summer-2024-canvas/page-20.jpg",
+      "x": 1350,
+      "y": 1232,
+      "width": 400,
+      "height": 566,
+      "color": "2"
+    },
+    {
+      "id": "page-21",
+      "type": "file",
+      "file": "summer-2024-canvas/page-21.jpg",
+      "x": 1800,
+      "y": 1232,
+      "width": 400,
+      "height": 566,
+      "color": "3"
+    },
+    {
+      "id": "page-22",
+      "type": "file",
+      "file": "summer-2024-canvas/page-22.jpg",
+      "x": 2250,
+      "y": 1232,
+      "width": 400,
+      "height": 566,
+      "color": "4"
+    },
+    {
+      "id": "page-23",
+      "type": "file",
+      "file": "summer-2024-canvas/page-23.jpg",
+      "x": 2700,
+      "y": 1232,
+      "width": 400,
+      "height": 566,
+      "color": "5"
+    },
+    {
+      "id": "page-24",
+      "type": "file",
+      "file": "summer-2024-canvas/page-24.jpg",
+      "x": 3150,
+      "y": 1232,
+      "width": 400,
+      "height": 566,
+      "color": "6"
+    },
+    {
+      "id": "page-25",
+      "type": "file",
+      "file": "summer-2024-canvas/page-25.jpg",
+      "x": 0,
+      "y": 1848,
+      "width": 400,
+      "height": 566,
+      "color": "1"
+    },
+    {
+      "id": "page-26",
+      "type": "file",
+      "file": "summer-2024-canvas/page-26.jpg",
+      "x": 450,
+      "y": 1848,
+      "width": 400,
+      "height": 566,
+      "color": "2"
+    },
+    {
+      "id": "page-27",
+      "type": "file",
+      "file": "summer-2024-canvas/page-27.jpg",
+      "x": 900,
+      "y": 1848,
+      "width": 400,
+      "height": 566,
+      "color": "3"
+    },
+    {
+      "id": "page-28",
+      "type": "file",
+      "file": "summer-2024-canvas/page-28.jpg",
+      "x": 1350,
+      "y": 1848,
+      "width": 400,
+      "height": 566,
+      "color": "4"
+    },
+    {
+      "id": "page-29",
+      "type": "file",
+      "file": "summer-2024-canvas/page-29.jpg",
+      "x": 1800,
+      "y": 1848,
+      "width": 400,
+      "height": 566,
+      "color": "5"
+    },
+    {
+      "id": "page-30",
+      "type": "file",
+      "file": "summer-2024-canvas/page-30.jpg",
+      "x": 2250,
+      "y": 1848,
+      "width": 400,
+      "height": 566,
+      "color": "6"
+    },
+    {
+      "id": "page-31",
+      "type": "file",
+      "file": "summer-2024-canvas/page-31.jpg",
+      "x": 2700,
+      "y": 1848,
+      "width": 400,
+      "height": 566,
+      "color": "1"
+    }
+  ],
+  "edges": []
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Zoomable Explorer</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.1/openseadragon.min.js"></script>
+  <style>
+    body { margin: 0; font-family: monospace; background: #000; color: #fff; }
+    #viewer { width: 100vw; height: 100vh; }
+    #controls { position: fixed; top: 20px; left: 20px; z-index: 1000; background: rgba(0,0,0,0.8); padding: 10px; }
+    #controls input, #controls button { margin: 5px; padding: 5px 10px; font-family: monospace; }
+  </style>
+</head>
+<body>
+  <div id="controls">
+    <label>Columns: <input id="cols" type="number" min="1" max="10" value="4"></label>
+    <button onclick="reflow()">REFLOW</button>
+    <div>Pages: 31 | Source: Post Oj8QCq2cqU1TBcScx6H9</div>
+  </div>
+  <div id="viewer"></div>
+  <script>
+    const NUM_PAGES = 31;
+    let viewer = OpenSeadragon({
+      id: "viewer",
+      prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.1/images/",
+      showNavigator: true,
+      maxZoomPixelRatio: 4
+    });
+
+    async function placePages(cols) {
+      viewer.world.removeAll();
+      const rows = Math.ceil(NUM_PAGES / cols);
+      const pageAspect = 1.414;
+      
+      for (let i = 0; i < NUM_PAGES; i++) {
+        const r = Math.floor(i / cols);
+        const c = i % cols;
+        
+        await viewer.addTiledImage({
+          tileSource: `tiles/page-${i}.dzi`,
+          x: c * 1.1,
+          y: r * pageAspect * 1.1,
+          width: 1
+        });
+      }
+      
+      if (NUM_PAGES > 0) {
+        const worldWidth = Math.min(NUM_PAGES, cols) * 1.1;
+        const worldHeight = rows * pageAspect * 1.1;
+        viewer.viewport.fitBounds(new OpenSeadragon.Rect(0, 0, worldWidth, worldHeight), true);
+      }
+    }
+
+    function reflow() {
+      const cols = parseInt(document.getElementById('cols').value, 10);
+      if (cols > 0) placePages(cols);
+    }
+
+    placePages(4);
+  </script>
+</body>
+</html>

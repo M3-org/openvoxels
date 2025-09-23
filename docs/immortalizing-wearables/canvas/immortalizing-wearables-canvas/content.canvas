@@ -1,0 +1,85 @@
+{
+  "nodes": [
+    {
+      "id": "page-1",
+      "type": "file",
+      "file": "immortalizing-wearables-canvas/page-1.jpg",
+      "x": 0,
+      "y": 0,
+      "width": 400,
+      "height": 566,
+      "color": "1"
+    },
+    {
+      "id": "page-2",
+      "type": "file",
+      "file": "immortalizing-wearables-canvas/page-2.jpg",
+      "x": 450,
+      "y": 0,
+      "width": 400,
+      "height": 566,
+      "color": "2"
+    },
+    {
+      "id": "page-3",
+      "type": "file",
+      "file": "immortalizing-wearables-canvas/page-3.jpg",
+      "x": 900,
+      "y": 0,
+      "width": 400,
+      "height": 566,
+      "color": "3"
+    },
+    {
+      "id": "page-4",
+      "type": "file",
+      "file": "immortalizing-wearables-canvas/page-4.jpg",
+      "x": 1350,
+      "y": 0,
+      "width": 400,
+      "height": 566,
+      "color": "4"
+    },
+    {
+      "id": "page-5",
+      "type": "file",
+      "file": "immortalizing-wearables-canvas/page-5.jpg",
+      "x": 0,
+      "y": 616,
+      "width": 400,
+      "height": 566,
+      "color": "5"
+    },
+    {
+      "id": "page-6",
+      "type": "file",
+      "file": "immortalizing-wearables-canvas/page-6.jpg",
+      "x": 450,
+      "y": 616,
+      "width": 400,
+      "height": 566,
+      "color": "6"
+    },
+    {
+      "id": "page-7",
+      "type": "file",
+      "file": "immortalizing-wearables-canvas/page-7.jpg",
+      "x": 900,
+      "y": 616,
+      "width": 400,
+      "height": 566,
+      "color": "1"
+    },
+    {
+      "id": "page-8",
+      "type": "file",
+      "file": "immortalizing-wearables-canvas/page-8.jpg",
+      "x": 1350,
+      "y": 616,
+      "width": 400,
+      "height": 566,
+      "color": "2"
+    }
+  ],
+  "edges": []
+}

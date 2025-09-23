@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canvas View - Post gFHP2nf1QBL9As2YIYKN</title>
+  <link rel="stylesheet" href="./viewer/canvasViewer.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f5f5f5;
+    }
+    .header {
+      background: #fff;
+      padding: 16px 20px;
+      border-bottom: 1px solid #e1e5e9;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      z-index: 1000;
+      position: relative;
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 600;
+      color: #333;
+    }
+    .canvas-container {
+      width: 100vw;
+      height: calc(100vh - 60px);
+      position: relative;
+    }
+    .loading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      color: #666;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>📄 Canvas View - Post gFHP2nf1QBL9As2YIYKN</h1>
+  </div>
+
+  <div class="canvas-container">
+    <div class="loading" id="loading">Loading canvas...</div>
+    <canvas-viewer
+      id="canvasViewer"
+      src="./dataset-voxel-wearables-canvas/content.canvas"
+      extensions="minimap mistouchPrevention"
+      options="minimapCollapsed"
+      style="width: 100%; height: 100%; display: none;">
+    </canvas-viewer>
+  </div>
+
+  <!-- Load dependencies -->
+  <script src="./viewer/marked.min.js"></script>
+  <script src="./viewer/canvasViewer.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const canvasViewerElement = document.getElementById('canvasViewer');
+      const loadingElement = document.getElementById('loading');
+
+      // Listen for canvas load events
+      canvasViewerElement.addEventListener('canvasLoaded', function(e) {
+        console.log('Canvas loaded successfully');
+        loadingElement.style.display = 'none';
+        canvasViewerElement.style.display = 'block';
+      });
+
+      canvasViewerElement.addEventListener('canvasError', function(e) {
+        console.error('Failed to load canvas:', e.detail);
+        loadingElement.textContent = 'Failed to load canvas: ' + (e.detail?.message || 'Unknown error');
+      });
+
+      // Show the canvas viewer after a short delay to ensure everything loads
+      setTimeout(() => {
+        if (canvasViewerElement.style.display === 'none') {
+          loadingElement.style.display = 'none';
+          canvasViewerElement.style.display = 'block';
+        }
+      }, 2000);
+    });
+  </script>
+</body>
+</html>

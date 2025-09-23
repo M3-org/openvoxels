@@ -1,64 +1,91 @@
-# openvoxels
+# OpenVoxels
+*Building a Wayback Machine for the Metaverse*
 
-Metaverse interop group focused on [Voxels (formally Cryptovoxels)](https://voxels.com/) and voxel art. Come say hi in our discord if interested in topics like open source, 3D graphics, AI, VR/AR, gaming, crypto - we frequently host events across different virtual worlds.
+> Metaverse interop group preserving virtual world history and pioneering cross-platform experiences
 
 ![image](https://user-images.githubusercontent.com/32600939/192132690-b2223965-841b-44ca-a972-406278c40016.png)
-<div align="center">
-  <a href="https://twitter.com/openvoxels">Twitter</a>
-  &mdash;
-  <a href="https://hackmd.io/@XR/voxels">Notes</a>
-  &mdash;
-  <a href="https://app.dework.xyz/m3/openvoxels">Dework</a>
-  &mdash;
-  <a href="https://m3org.com/discord">Discord</a>
-  &mdash;
-  <a href="https://mirror.xyz/openvoxels.eth">Blog</a>
-  &mdash;
-  <a href="https://juicebox.money/@openvoxels">Support</a>
-</div>
 
-## Resources
+## 🎯 Mission
 
-- https://github.com/madjin/Cryptovoxels-avatars - files and guides for CV avatar interop
-- https://github.com/M3-org/cryptovoxels-wearables - snapshot of all cryptovoxel wearables in diff formats
-- https://github.com/madjin/Cryptovoxels-snapshots - snapshot of all cryptovoxel parcels from 2019 / 2022
-- https://github.com/cryptovoxels/cryptovoxels.github.com - archive of the old blog from cryptovoxels
+**Preserve virtual world history before it disappears forever.** Virtual worlds are ephemeral - without proper archival, we lose digital cultural heritage. OpenVoxels creates datasets, tools, and experiences to ensure metaverse pioneers and digital artifacts are remembered.
 
+## 🏗️ What We Do
 
----
+- **📊 Data DAO** - Collect and preserve metaverse datasets
+- **🔬 DeSci Art Project** - Research-driven digital preservation
+- **🌐 Interop Working Group** - Build bridges between virtual worlds
 
-## Motivation
+## 🚀 Quick Links
 
-- Virtual worlds are ephemeral
-- Preserving virtual worlds has unique challenges
-- Remember the pioneers of the metaverse
+| Resource | Description |
+|----------|-------------|
+| [📖 Book of Voxels](https://hackmd.io/@XR/voxels) | Comprehensive notes and research |
+| [💰 Support via Juicebox](https://juicebox.money/@openvoxels) | Fund our preservation work |
+| [💬 Discord](https://m3org.com/discord) | Join our community |
+| [📱 Twitter](https://twitter.com/openvoxels) | Follow updates |
+| [📝 Blog](https://mirror.xyz/openvoxels.eth) | Latest articles |
+| [🎯 Dework](https://app.dework.xyz/m3/openvoxels) | Contribute to tasks |
 
-I want our digital wonders to last, and the early founders and pioneers of this space remembered. Without history, society is easily reprogrammed by its incumbents. If we don’t tell our story, someone else will. We shouldn't rely on centralized platforms to preserve our digital artifacts and stand the test of time. Twitter is powerful, but it's also a rapid stream. It's useful for data in transit, but not for data at rest.
+## 📚 Documentation & Research
 
-> Read full post 📃: https://mirror.xyz/openvoxels.eth/hBQzBNwFXrOnwj5S5oOiYaBpQrpM8HfjENYMjKcy6Cs
+### Core Projects
+- [**Voxels/Cryptovoxels Archive**](docs/) - Historical snapshots and datasets
+- [**Avatar Interoperability**](https://github.com/madjin/Cryptovoxels-avatars) - Cross-platform avatar systems
+- [**Wearables Museum**](docs/the-wearables-museum/) - Preserving virtual fashion
 
+### Key Resources
+- [Cryptovoxels Avatars](https://github.com/madjin/Cryptovoxels-avatars) - Files and guides for CV avatar interop
+- [Cryptovoxels Wearables](https://github.com/M3-org/cryptovoxels-wearables) - Snapshot of all cryptovoxel wearables in different formats
+- [Cryptovoxels Snapshots](https://github.com/madjin/Cryptovoxels-snapshots) - Snapshot of all cryptovoxel parcels from 2019/2022
+- [Cryptovoxels Blog Archive](https://github.com/cryptovoxels/cryptovoxels.github.com) - Archive of the old blog from cryptovoxels
+- [Internet Archive](https://archive.org/details/cv_2019) - 2019 Cryptovoxels snapshot on Archive.org
+- [Sketchfab Collection](https://skfb.ly/oyOxO) - 3D models from historical snapshots
 
----
+### Research Notes
+- [Motivation & Mission](docs/motivation-and-mission/) - Why we exist
+- [Metaverse Interoperability](docs/archiving-metaverse-interop/) - Technical approaches
+- [Dataset Collections](docs/dataset-origin-city-archives/) - Archived virtual worlds
 
-## Avatars
+## 🗃️ Repository Structure
 
-The mannequin avatars Voxels uses is a great placeholder metaphor for custom humanoid avatars, and ironically the only curvy thing in the blocky world of Origin City islands. This repo contains the original files from Voxels that were converted into VRM and FBX to experiment with avatar interop
+```
+├── docs/                 # Published articles and research
+│   ├── hackmd/          # Downloaded HackMD research notes
+│   └── [project-name]/  # Individual project documentation
+├── book.md              # Master index of all HackMD content
+└── swag/                # Community assets and media
+```
 
-- Video demo: https://vimeo.com/455114096
-- Github: https://github.com/madjin/Cryptovoxels-avatars
-- VRoid Hub: https://hub.vroid.com/en/tags/cryptovoxels
+## 🤝 Get Involved
 
----
+**For Builders:**
+- Check our [Dework tasks](https://app.dework.xyz/m3/openvoxels)
+- Join research discussions in [Discord](https://m3org.com/discord)
+- Contribute to datasets and preservation efforts
 
-## Historical snapshots
+**For Supporters:**
+- [Fund our DAO](https://juicebox.money/@openvoxels)
+- Share our work with the community
+- Help preserve virtual world history
 
-Part of the openvoxels mission seeks to preserve, curate, augment, and promote historical digital artifacts from the metaverse. Join the [discord](https://m3org.com/discord) if interested in a grant for building worlds with these assets.
+## 🌟 Featured Work
 
-- Github: https://github.com/madjin/Cryptovoxels-snapshots
-- Sketchfab: https://skfb.ly/oyOxO
-- Archive: https://archive.org/details/cv_2019
+| Project | Description | Links |
+|---------|-------------|-------|
+| **Parcels Archive** | 2019-2022 Voxels world snapshots | [GitHub](https://github.com/madjin/Cryptovoxels-snapshots) • [Sketchfab](https://skfb.ly/oyOxO) • [Archive.org](https://archive.org/details/cv_2019) |
+| **Wearables Dataset** | Complete Voxels fashion archive | [GitHub](https://github.com/M3-org/cryptovoxels-wearables) • [Blog](https://mirror.xyz/openvoxels.eth/MVy5cs90cH5ae8GNha1goMQHqFAFOKbzVSHCV_fu5jI) |
+| **Avatar Interop** | Cross-platform avatar tools | [Demo](https://vimeo.com/455114096) • [GitHub](https://github.com/madjin/Cryptovoxels-avatars) • [VRoid Hub](https://hub.vroid.com/en/tags/cryptovoxels) |
 
 | [Parcels](https://github.com/madjin/Cryptovoxels-snapshots) | [Wearables](https://github.com/M3-org/cryptovoxels-wearables) |
 | --- | --------- |
 | [![blender_Om6PfHUI0k](https://user-images.githubusercontent.com/32600939/200194527-c628dfd4-fb61-44da-acfb-1db1dab03014.png)](https://github.com/madjin/Cryptovoxels-snapshots) | [![](https://i.imgur.com/9n9cLpt.png)](https://github.com/M3-org/cryptovoxels-wearables) |
-| [📃 Parcels mirror blog post](https://mirror.xyz/openvoxels.eth/PDMw151D333CwJx-eGMufPawzbrFqP3Yr6ov_FY4jSk) | [📃 Wearables mirror blog post](https://mirror.xyz/openvoxels.eth/MVy5cs90cH5ae8GNha1goMQHqFAFOKbzVSHCV_fu5jI) |
+
+---
+
+## 💡 Vision
+
+*"A people without the knowledge of their past history, origin and culture is like a tree without roots" - Marcus Garvey*
+
+We're building the infrastructure to ensure virtual world culture and its pioneers are never forgotten. From Voxels' iconic black & white era to today's vibrant metaverse, every digital moment has value worth preserving.
+
+**Status:** 🚧 Work in Progress - This repository is actively evolving as we build the future of metaverse preservation.
