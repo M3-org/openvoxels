@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Openvoxels - Preserving the Metaverse</title>
+    <meta name="description" content="Preserving, curating, and promoting digital artifacts from the metaverse. Starting with Cryptovoxels wearables and virtual worlds.">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #4a5568;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #4a5568;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #667eea;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 120px 0 80px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            animation: fadeInUp 1s ease;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+            animation: fadeInUp 1s ease 0.2s both;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            animation: fadeInUp 1s ease 0.4s both;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background: white;
+            color: #667eea;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+
+        .btn-secondary:hover {
+            background: white;
+            color: #667eea;
+        }
+
+        /* Stats Section */
+        .stats {
+            background: white;
+            padding: 60px 0;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            text-align: center;
+        }
+
+        .stat-item h3 {
+            font-size: 2.5rem;
+            color: #667eea;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-item p {
+            color: #666;
+            font-weight: 500;
+        }
+
+        /* Features Section */
+        .features {
+            background: #f7fafc;
+            padding: 80px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            color: #2d3748;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+        }
+
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .feature-card h3 {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+            color: #2d3748;
+        }
+
+        /* Mission Section */
+        .mission {
+            background: white;
+            padding: 80px 0;
+        }
+
+        .mission-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .mission-text h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            color: #2d3748;
+        }
+
+        .mission-text p {
+            font-size: 1.1rem;
+            color: #666;
+            margin-bottom: 1.5rem;
+        }
+
+        .quote {
+            background: #f7fafc;
+            padding: 1.5rem;
+            border-left: 4px solid #667eea;
+            font-style: italic;
+            margin: 1.5rem 0;
+        }
+
+        /* Projects Section */
+        .projects {
+            background: #2d3748;
+            color: white;
+            padding: 80px 0;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+        }
+
+        .project-card {
+            background: rgba(255,255,255,0.1);
+            padding: 2rem;
+            border-radius: 12px;
+            backdrop-filter: blur(10px);
+        }
+
+        .project-card h3 {
+            margin-bottom: 1rem;
+            color: #667eea;
+        }
+
+        /* Community Section */
+        .community {
+            background: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .social-link {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 12px 20px;
+            background: #f7fafc;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #4a5568;
+            transition: all 0.3s;
+        }
+
+        .social-link:hover {
+            background: #667eea;
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        /* Footer */
+        footer {
+            background: #1a202c;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .mission-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <div class="logo">Openvoxels</div>
+            <ul class="nav-links">
+                <li><a href="#mission">Mission</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#community">Community</a></li>
+                <li><a href="https://github.com/m3-org/openvoxels">GitHub</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Preserving the Metaverse</h1>
+            <p>Archiving, curating, and promoting digital artifacts from virtual worlds.<br>
+            Because our digital culture deserves to last forever.</p>
+            <div class="cta-buttons">
+                <a href="https://juicebox.money/@openvoxels" class="btn btn-primary">Support the Mission</a>
+                <a href="https://github.com/m3-org/openvoxels" class="btn btn-secondary">Explore Archives</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3>34,000+</h3>
+                    <p>Wearables Preserved</p>
+                </div>
+                <div class="stat-item">
+                    <h3>3,166</h3>
+                    <p>VRM Avatars Created</p>
+                </div>
+                <div class="stat-item">
+                    <h3>5+</h3>
+                    <p>Years of Archives</p>
+                </div>
+                <div class="stat-item">
+                    <h3>∞</h3>
+                    <p>Preservation Commitment</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">What We Do</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🏛️</div>
+                    <h3>Digital Preservation</h3>
+                    <p>We archive virtual worlds, wearables, and digital artifacts using open standards like glTF and VRM to ensure they survive platform changes.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔗</div>
+                    <h3>Interoperability</h3>
+                    <p>Converting proprietary formats to open standards, enabling digital assets to move freely between different metaverse platforms.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <h3>Living Museums</h3>
+                    <p>Creating immersive experiences that showcase the history and evolution of virtual worlds across multiple platforms.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="mission" id="mission">
+        <div class="container">
+            <div class="mission-content">
+                <div class="mission-text">
+                    <h2>Our Mission</h2>
+                    <p>Openvoxels is a data DAO and DeSci art project focused on preserving the cultural heritage of virtual worlds. We started with Cryptovoxels/Voxels, one of the first blockchain-based virtual worlds.</p>
+                    
+                    <div class="quote">
+                        "File > App - If you want to create digital artifacts that last, they must be files you can control, in formats that are easy to retrieve and read."
+                    </div>
+                    
+                    <p>We believe digital ownership means more than just having an NFT - it means having actual control over your digital creations in formats that will outlast any single platform.</p>
+                </div>
+                <div class="mission-visual">
+                    <div style="background: linear-gradient(135deg, #667eea, #764ba2); height: 300px; border-radius: 12px; display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem;">
+                        🌐
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title" style="color: white;">Key Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Wearables Archive</h3>
+                    <p>Converted 34,000+ Cryptovoxels wearables from proprietary .vox format to glTF, uploaded to Arweave for permanent storage, and created VRM avatars for cross-platform use.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Virtual World Snapshots</h3>
+                    <p>Regular 3D snapshots of entire virtual worlds, creating a "Wayback Machine" for the metaverse. Exported to multiple formats and platforms including VRChat and Hyperfy.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Living Museums</h3>
+                    <p>Immersive galleries showcasing the evolution of virtual worlds, featuring historical builds, avatar costumes, and cultural artifacts from the early metaverse era.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Smooth Voxels Tools</h3>
+                    <p>CLI tools for converting between voxel formats, enabling creators to work with accessible voxel editors while outputting to modern 3D standards.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section class="community" id="community">
+        <div class="container">
+            <h2 class="section-title">Join the Community</h2>
+            <p>Help us preserve digital culture and build the open metaverse</p>
+            <div class="social-links">
+                <a href="https://juicebox.money/@openvoxels" class="social-link">
+                    <span>💰</span> Support on Juicebox
+                </a>
+                <a href="https://github.com/m3-org/openvoxels" class="social-link">
+                    <span>📁</span> View Archives
+                </a>
+                <a href="https://discord.gg/m3org" class="social-link">
+                    <span>💬</span> Join Discord
+                </a>
+                <a href="https://twitter.com/openvoxels" class="social-link">
+                    <span>🐦</span> Follow Updates
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Openvoxels. Preserving digital culture for future generations.</p>
+            <p>Part of the <a href="https://m3org.com" style="color: #667eea;">M3 collective</a></p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Add scroll effect to header
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.style.background = 'rgba(255, 255, 255, 0.98)';
+            } else {
+                header.style.background = 'rgba(255, 255, 255, 0.95)';
+            }
+        });
+    </script>
+</body>
+</html>

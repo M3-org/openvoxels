@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Openvoxels — Preserve the Metaverse</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Openvoxels preserves, curates, augments, and promotes historical digital artifacts from the metaverse—starting with Voxels (formerly Cryptovoxels). We champion File > App, open standards, and interoperability." />
+  <meta property="og:title" content="Openvoxels — Preserve the Metaverse" />
+  <meta property="og:description" content="File > App. Open standards. Interoperability. Living museums for metaverse culture." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://storage.googleapis.com/papyrus_images/73c7d0eead52496ff614b8c383046d3f9485d7ee42a301fc6c9feac454f5c3a7.jpg" />
+  <meta name="theme-color" content="#0f172a" />
+  <style>
+    :root{
+      --bg:#0b0f1a; --panel:#111726; --muted:#9aa3b2;
+      --text:#e6ecf2; --brand:#6cf0c2; --accent:#7aa6ff;
+      --cta:#00e1ad; --cta2:#7aa6ff;
+      --chip:#1a2032; --link:#9cd4ff;
+      --border:#23304a;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;height:100%;scroll-behavior:smooth;background:radial-gradient(1200px 600px at 75% -10%, rgba(122,166,255,.07), transparent 60%), var(--bg); color:var(--text); font:16px/1.55 Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"}
+    a{color:var(--link); text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:1200px;margin:0 auto;padding:0 24px}
+    header{position:sticky;top:0;background:linear-gradient(180deg, rgba(11,15,26,.92), rgba(11,15,26,.75));backdrop-filter: blur(10px); border-bottom:1px solid var(--border); z-index:20}
+    .nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:28px;height:28px;border-radius:6px;background:conic-gradient(from 210deg, var(--brand), var(--accent), var(--brand)); box-shadow:0 0 20px rgba(108,240,194,.4) inset}
+    .brand h1{margin:0;font-size:16px;letter-spacing:.4px}
+    nav ul{display:flex;gap:18px;list-style:none;margin:0;padding:0}
+    nav a{color:var(--text);opacity:.9}
+    nav a:hover{opacity:1}
+    .cta{display:inline-flex;align-items:center;gap:10px;padding:10px 14px;border-radius:10px;background:linear-gradient(90deg,var(--cta),var(--accent));color:#08131b;border:0;cursor:pointer;font-weight:600; box-shadow:0 10px 24px rgba(108,240,194,.2)}
+    .cta2{display:inline-flex;align-items:center;gap:10px;padding:10px 14px;border-radius:10px;border:1px solid var(--border);background:transparent;color:var(--text)}
+    .hero{padding:72px 0 36px}
+    .split{display:grid;grid-template-columns:1.2fr 1fr;gap:36px;align-items:center}
+    .tag{display:inline-flex;gap:8px;align-items:center;background:var(--chip);border:1px solid var(--border);padding:6px 10px;border-radius:999px;color:var(--muted);font-size:12px}
+    h2{font-size:40px;line-height:1.1;margin:16px 0 12px}
+    .lead{color:#cfe6f5; font-size:18px; max-width:58ch}
+    .hero-media{border:1px solid var(--border);border-radius:16px;overflow:hidden;background:#0c1220}
+    .hero-media img{display:block;width:100%;height:auto}
+    .row{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}
+    section{padding:48px 0;border-top:1px solid var(--border)}
+    .grid{display:grid;gap:18px}
+    .grid.cols3{grid-template-columns:repeat(3,1fr)}
+    .card{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:18px}
+    .card h3{margin:6px 0 8px;font-size:18px}
+    .muted{color:var(--muted)}
+    .kpi{display:flex;gap:20px;flex-wrap:wrap;margin-top:8px}
+    .kpi .n{font-weight:800;font-size:22px}
+    .badge{display:inline-flex;align-items:center;gap:8px;padding:6px 9px;border:1px solid var(--border);border-radius:10px;background:var(--chip);color:#d3e7ff;font-size:12px}
+    .list{display:grid;gap:10px}
+    .list a{display:flex;justify-content:space-between;align-items:center;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--panel)}
+    .mono{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size:13px}
+    .footer{padding:28px 0 52px;border-top:1px solid var(--border);color:var(--muted);font-size:14px}
+    .chips{display:flex;gap:8px;flex-wrap:wrap}
+    .note{font-size:13px;color:var(--muted)}
+    .pill{display:inline-flex;gap:8px;align-items:center;background:var(--chip);border:1px solid var(--border);padding:8px 12px;border-radius:999px}
+    .two{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+    @media (max-width:960px){
+      .split{grid-template-columns:1fr}
+      nav ul{display:none}
+      .hero{padding:32px 0 12px}
+      h2{font-size:34px}
+      .grid.cols3{grid-template-columns:1fr}
+      .two{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="container nav">
+    <div class="brand">
+      <div class="logo" aria-hidden="true"></div>
+      <h1>Openvoxels</h1>
+    </div>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="#mission">Mission</a></li>
+        <li><a href="#datasets">Datasets</a></li>
+        <li><a href="#wearables">Wearables 2.0</a></li>
+        <li><a href="#avatars">VRM Avatars</a></li>
+        <li><a href="#museum">Living Museum</a></li>
+        <li><a href="#projects">R&amp;D</a></li>
+        <li><a href="#join">Join/Support</a></li>
+      </ul>
+    </nav>
+    <a class="cta" href="https://juicebox.money/@openvoxels" target="_blank" rel="noopener">Support on Juicebox</a>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero" id="top">
+    <div class="container split">
+      <div>
+        <span class="tag">File &gt; App • Open Standards • Interop</span>
+        <h2>Preserve the Metaverse. Empower its Creators.</h2>
+        <p class="lead">
+          Openvoxels is a community-led effort to preserve, curate, augment, and promote historical digital artifacts from virtual worlds—starting with Voxels (formerly Cryptovoxels). We archive worlds, upgrade datasets to open formats like glTF and VRM, decentralize storage, and build living museums so culture endures.
+        </p>
+        <div class="row">
+          <a class="cta" href="#datasets">Explore Datasets</a>
+          <a class="cta2" href="https://m3org.com/discord" target="_blank" rel="noopener">Join the M3 Discord</a>
+          <a class="cta2" href="https://twitter.com/openvoxels" target="_blank" rel="noopener">Follow Updates</a>
+        </div>
+        <div class="kpi">
+          <span class="badge">Open standards: glTF 2.0 • VRM • JSON</span>
+          <span class="badge">Decentralized storage: Arweave • IPFS • Filecoin</span>
+        </div>
+      </div>
+      <div class="hero-media">
+        <img src="https://storage.googleapis.com/papyrus_images/73c7d0eead52496ff614b8c383046d3f9485d7ee42a301fc6c9feac454f5c3a7.jpg" alt="Metaverse pioneers traveling with their digital artifacts across cyberspace" />
+      </div>
+    </div>
+  </section>
+
+  <section id="mission">
+    <div class="container two">
+      <div class="card">
+        <h3>Our Mission</h3>
+        <p class="muted">
+          Create durable, interoperable records of virtual worlds. We snapshot cities, convert proprietary formats to open ones, enrich assets with provenance metadata, and publish them to decentralized storage. Then we bring these artifacts to life via public, immersive “living museums.”
+        </p>
+        <div class="chips" style="margin-top:8px">
+          <span class="pill">Preservation</span>
+          <span class="pill">Interoperability</span>
+          <span class="pill">Creator Empowerment</span>
+          <span class="pill">Open Research</span>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Why File &gt; App?</h3>
+        <p class="muted">
+          Apps are ephemeral. Files endure. By embracing open formats like glTF and VRM, anyone can read, remix, and migrate assets across engines and platforms—now and decades from now. That’s how we align the metaverse with user ownership and right-of-exit.
+        </p>
+        <div class="kpi">
+          <div>
+            <div class="n">8×–97%</div>
+            <div class="muted">Compression wins (KTX2/Draco) on world snapshots</div>
+          </div>
+          <div>
+            <div class="n">3+ Snapshots</div>
+            <div class="muted">2019 • 2022 • 2024 Voxels city exports</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="datasets">
+    <div class="container">
+      <h3>Featured Datasets</h3>
+      <div class="grid cols3" style="margin-top:12px">
+        <div class="card">
+          <h3>Origin City — 12/13/2019</h3>
+          <p class="muted">First full Voxels city snapshot (district meshes), available on Sketchfab and GitHub. Great for preservation, prototyping, and creative remix.</p>
+          <div class="list" style="margin-top:8px">
+            <a href="https://skfb.ly/oyOxO" target="_blank" rel="noopener"><span>Sketchfab Collection</span><span>↗</span></a>
+            <a href="https://github.com/madjin/Cryptovoxels-snapshots" target="_blank" rel="noopener"><span>GitHub repository</span><span>↗</span></a>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Voxel Wearables — 11/01/2022</h3>
+          <p class="muted">Snapshot of 3,100+ wearables with conversions to .svox and .glb, metadata upgrades, and compression benchmarks.</p>
+          <div class="list" style="margin-top:8px">
+            <a href="https://github.com/M3-org/cryptovoxels-wearables" target="_blank" rel="noopener"><span>Wearables dataset</span><span>↗</span></a>
+            <a href="https://hyperfy.io/wearables" target="_blank" rel="noopener"><span>Interactive: Hyperfy world</span><span>↗</span></a>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Voxels 2024 Snapshot</h3>
+          <p class="muted">Latest city export and asset backup (vox models mirrored to Arweave), plus VRChat ports and 360 skyboxes for previews.</p>
+          <div class="list" style="margin-top:8px">
+            <a href="https://github.com/madjin/Cryptovoxels-snapshots/tree/master/3-25-24" target="_blank" rel="noopener"><span>2024 snapshot on GitHub</span><span>↗</span></a>
+            <a href="https://skfb.ly/prr6B" target="_blank" rel="noopener"><span>Sketchfab set</span><span>↗</span></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="margin-top:18px">
+        <h3>Scale of the Archive (as of Mar 12, 2024)</h3>
+        <div class="kpi">
+          <div><div class="n">~34,000</div><div class="muted">Unique wearables</div></div>
+          <div><div class="n">111,557</div><div class="muted">Collectors</div></div>
+          <div><div class="n">350,263</div><div class="muted">Total NFTs</div></div>
+        </div>
+        <p class="note">Numbers derived from Voxels wearables snapshot stewardship effort.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="wearables">
+    <div class="container">
+      <h3>Wearables 2.0 — Durable, Interoperable, Beautiful</h3>
+      <div class="grid cols3" style="margin-top:12px">
+        <div class="card">
+          <h3>Upgraded File Formats</h3>
+          <p class="muted">Add glTF 2.0 binaries (.glb) alongside .vox; encode NFT and creator metadata into the model (XMP/JSON) for attribution that travels.</p>
+          <div class="chips">
+            <span class="pill">glTF 2.0</span>
+            <span class="pill">svox</span>
+            <span class="pill">Metadata in-file</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Decentralized Storage</h3>
+          <p class="muted">Mirror assets to Arweave/IPFS for permanence. Replace centralized URLs in metadata with permaweb links; add HTML previews with AR/VR.</p>
+          <div class="chips">
+            <span class="pill">Arweave</span>
+            <span class="pill">IPFS</span>
+            <span class="pill">animation_url</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Smaller, Faster, Open</h3>
+          <p class="muted">Use Smooth Voxels, Draco, and KTX2 to compress geometry and textures. Our tests achieve up to 97% size reduction on city meshes.</p>
+          <div class="chips">
+            <span class="pill">Draco</span>
+            <span class="pill">KTX2</span>
+            <span class="pill">Smooth Voxels</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="two" style="margin-top:18px">
+        <div class="card">
+          <h3>Creator-Friendly Upgrades</h3>
+          <p class="muted">We provide scripts and guidance to update existing collections without breaking in-world compatibility, and to publish improved metadata on-chain or via contract config where possible.</p>
+          <div class="list" style="margin-top:8px">
+            <a href="https://github.com/M3-org/cryptovoxels-wearables/blob/main/scripts/convert_json.sh" target="_blank" rel="noopener"><span>Metadata conversion script</span><span class="mono">bash</span></a>
+            <a href="https://github.com/KhronosGroup/glTF-Metadata-CLI" target="_blank" rel="noopener"><span>Embed JSON into glTF (Khronos CLI)</span><span class="mono">rust</span></a>
+            <a href="https://github.com/madjin/smoothvoxel-tools" target="_blank" rel="noopener"><span>Smoothvoxels CLI (fast vox→svox→glb)</span><span class="mono">node</span></a>
+            <a href="https://smoothvoxels.glitch.me" target="_blank" rel="noopener"><span>Smooth Voxels playground</span><span>↗</span></a>
+          </div>
+        </div>
+        <div class="card">
+          <h3>AR/VR Previews + Thumbnails</h3>
+          <p class="muted">Each wearable gets a transparent, lightweight thumbnail plus an interactive HTML preview (with AR/VR), themed by the mint year via 360° skyboxes.</p>
+          <div class="list" style="margin-top:8px">
+            <a href="https://arweave.net/DQzDSe2GFKopqmFOuwdefIWA53dtt6wy-6k609QiMg4" target="_blank" rel="noopener"><span>Preview example (AR/VR)</span><span>↗</span></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="avatars">
+    <div class="container">
+      <h3>Voxels → VRM Avatars + Sprites</h3>
+      <div class="grid cols3" style="margin-top:12px">
+        <div class="card">
+          <h3>VRM Exports</h3>
+          <p class="muted">Generate VRM avatars from Voxels costumes with preserved metadata (contract, token, attachments). Tested across Hyperfy, Oncyber, and more.</p>
+          <div class="chips">
+            <span class="pill">1 draw call (LOD)</span>
+            <span class="pill">Draco + KTX2</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Spritesheets</h3>
+          <p class="muted">Create VRM-derived impostor sprites for scalable crowds. Works with Character Studio’s pipeline and custom animations.</p>
+          <a class="badge" href="https://m3-org.github.io/characterstudio-docs/docs/Modders/manifest-files/vrm-to-spritesheet" target="_blank" rel="noopener">VRM → Spritesheet guide ↗</a>
+        </div>
+        <div class="card">
+          <h3>Passports (WIP)</h3>
+          <p class="muted">A 3D “metaverse passport” NFT concept that bundles VRM, thumbnails, and costume provenance for portability and display.</p>
+          <div class="chips">
+            <span class="pill">VRM URL in metadata</span>
+            <span class="pill">Sprite URL</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="museum">
+    <div class="container">
+      <h3>The Wearables Museum</h3>
+      <p class="muted">An evolving, immersive museum that showcases the history of Voxels wearables—upgraded to open formats, decentralized storage, and interactive previews—so future generations can explore this culture.</p>
+      <div class="two" style="margin-top:12px">
+        <div class="card">
+          <h3>What’s inside</h3>
+          <ul class="muted">
+            <li>Upgraded metadata (glb links, year, collection info, animation_url)</li>
+            <li>Transparent thumbnails (smaller, crisper)</li>
+            <li>AR/VR previews themed by years (2019–2024)</li>
+            <li>Creator attribution embedded in models</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Stewardship & Voting</h3>
+          <p class="muted">We’ve prototyped voting power recipes (e.g., parcel ownership + creator impact) and used on-chain contests to fund and feature new work.</p>
+          <div class="chips">
+            <span class="pill">Snapshot space</span>
+            <span class="pill">On-chain contests</span>
+            <span class="pill">Community curation</span>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="margin-top:16px">
+        <a class="cta2" href="https://mirror.xyz/m3org.eth/4NPYOzRtcuYHrRI7iZK1yADswgOv9To2ErQ8KrqLPX0" target="_blank" rel="noopener">Dev log: Extra metadata</a>
+        <a class="cta2" href="https://twitter.com/openvoxels" target="_blank" rel="noopener">Follow progress</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h3>R&amp;D and Case Studies</h3>
+      <div class="grid cols3" style="margin-top:12px">
+        <div class="card">
+          <h3>City Snapshots → Living Museums</h3>
+          <p class="muted">From bulk exports to Unity/VRChat ports, we compress, optimize, and publish worlds in formats that travel—enabling time capsules and field trips across years.</p>
+          <div class="chips">
+            <span class="pill">Draco</span>
+            <span class="pill">KTX2</span>
+            <span class="pill">Hyperfy / VRChat</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Interoperability Pilots</h3>
+          <p class="muted">VRM exports tested on major WebGL platforms; metadata conventions like vrm_url accelerate cross-world avatar portability.</p>
+          <div class="chips">
+            <span class="pill">VRM</span>
+            <span class="pill">gltf-transform</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Project “Voxia” (WIP)</h3>
+          <p class="muted">A performant, open-first sandbox inspired by “The Street,” with voxel building, VRM avatars, and glTF exports from day one.</p>
+          <div class="chips">
+            <span class="pill">glTF snapshots</span>
+            <span class="pill">WebXR</span>
+            <span class="pill">Creator tools</span>
+          </div>
+        </div>
+      </div>
+      <div class="card" style="margin-top:18px">
+        <h3>Press & Mentions</h3>
+        <div class="list" style="margin-top:8px">
+          <a href="https://twitter.com/BanklessHQ/status/1820190855212212610" target="_blank" rel="noopener"><span>Bankless: Building a Sustainable Metaverse</span><span>↗</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="join">
+    <div class="container two">
+      <div class="card">
+        <h3>Get Involved</h3>
+        <p class="muted">We’re a grassroots R&D collective. Whether you’re a creator, engine dev, archivist, or standards nerd—there’s a place for you.</p>
+        <div class="list" style="margin-top:8px">
+          <a href="https://m3org.com/discord" target="_blank" rel="noopener"><span>Join the M3 Discord</span><span>↗</span></a>
+          <a href="https://github.com/m3-org/openvoxels" target="_blank" rel="noopener"><span>Openvoxels on GitHub</span><span>↗</span></a>
+          <a href="https://app.dework.xyz/m3/openvoxels" target="_blank" rel="noopener"><span>Open tasks on Dework</span><span>↗</span></a>
+          <a href="https://snapshot.org/#/openvoxels.eth" target="_blank" rel="noopener"><span>Snapshot (governance)</span><span>↗</span></a>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Support the Mission</h3>
+        <p class="muted">Donations fund archiving runs, storage, dev tools, and museum builds. We operate transparently and publish our work openly.</p>
+        <div class="row">
+          <a class="cta" href="https://juicebox.money/@openvoxels" target="_blank" rel="noopener">Donate via Juicebox</a>
+          <a class="cta2" href="https://twitter.com/openvoxels" target="_blank" rel="noopener">Spread the word</a>
+        </div>
+        <p class="note" style="margin-top:10px">You can also mint select posts and 3D pins to support ongoing archival efforts.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container two">
+    <div>
+      <div class="brand" style="gap:10px;margin-bottom:6px">
+        <div class="logo" aria-hidden="true"></div>
+        <strong>Openvoxels</strong>
+      </div>
+      <div class="muted">Preserving virtual worlds with open standards and interoperable tools.</div>
+      <div class="row" style="margin-top:10px">
+        <a class="badge" href="https://twitter.com/openvoxels" target="_blank" rel="noopener">X / Twitter</a>
+        <a class="badge" href="https://github.com/m3-org/openvoxels" target="_blank" rel="noopener">GitHub</a>
+        <a class="badge" href="https://juicebox.money/@openvoxels" target="_blank" rel="noopener">Juicebox</a>
+        <a class="badge" href="https://sketchfab.com/m3org/collections" target="_blank" rel="noopener">Sketchfab</a>
+      </div>
+    </div>
+    <div>
+      <div class="grid" style="grid-template-columns: 1fr 1fr; gap:10px">
+        <div>
+          <div class="muted" style="margin-bottom:6px">Learn</div>
+          <div class="list">
+            <a href="https://mirror.xyz/openvoxels.eth/hBQzBNwFXrOnwj5S5oOiYaBpQrpM8HfjENYMjKcy6Cs" target="_blank" rel="noopener"><span>Motivation & Mission</span><span>↗</span></a>
+            <a href="https://mirror.xyz/openvoxels.eth/k693J7KFEX3y8cOSereh432yy2nUUjft05X4L0UgANo" target="_blank" rel="noopener"><span>Immortalizing Wearables</span><span>↗</span></a>
+            <a href="https://paragraph.com/@openvoxels" target="_blank" rel="noopener"><span>Updates on Paragraph</span><span>↗</span></a>
+          </div>
+        </div>
+        <div>
+          <div class="muted" style="margin-bottom:6px">Tools</div>
+          <div class="list">
+            <a href="https://m3-org.github.io/characterstudio-docs" target="_blank" rel="noopener"><span>Character Studio</span><span>↗</span></a>
+            <a href="https://smoothvoxels.glitch.me" target="_blank" rel="noopener"><span>Smooth Voxels</span><span>↗</span></a>
+            <a href="https://gltf-transform.dev/" target="_blank" rel="noopener"><span>gltf-transform</span><span>↗</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="note" style="margin-top:10px">Content includes references to Voxels (formerly Cryptovoxels). All trademarks belong to their respective owners.</div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
